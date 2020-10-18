@@ -67,6 +67,36 @@ export default function ResourcesScreen() {
           >
             Help for Dads during the Postpartum Period
           </Text>
+          <Text
+            style={styles.linkText}
+            onPress={() =>
+              Linking.openURL(
+                "http://postpartummen.com/"
+              )
+            }
+          >
+            Helping Men Beat The Baby Blues And Overcome Depression
+          </Text>
+          <Text
+            style={styles.linkText}
+            onPress={() =>
+              Linking.openURL(
+                "https://depressioninnewdads.com/post-natal-ptsd-in-men/"
+              )
+            }
+          >
+            Birth Trauma and Post-Natal PTSD
+          </Text>
+          <Text
+            style={styles.linkText}
+            onPress={() =>
+              Linking.openURL(
+                "https://www.psychologytoday.com/us/blog/isnt-what-i-expected/201103/dads-what-do-what-not-do-when-your-wife-has-ppd"
+              )
+            }
+          >
+            For Dads: What To Do, What Not To Do When Your Wife Has PPD
+          </Text>
         </View>
       </View>
     </View>
